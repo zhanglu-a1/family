@@ -1,0 +1,50 @@
+:root {
+  --fm-bg: #f7f3ec;
+  --fm-panel: #fffdf9;
+  --fm-ink: #3f332b;
+  --fm-ink-soft: #7a6a5d;
+  --fm-line: #e7ddcf;
+  --fm-accent: #a8683f;
+  --fm-accent-soft: #f0e4d6;
+  --fm-sidebar: #3f332b;
+
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+  color: var(--fm-ink);
+  background-color: var(--fm-bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: var(--fm-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--fm-accent);
+  text-decoration: none;
+}
+
+.fm-serif {
+  font-family: 'Songti SC', 'STSong', 'Noto Serif SC', Georgia, serif;
+}
+
+.fm-card {
+  background: var(--fm-panel);
+  border: 1px solid var(--fm-line);
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.fm-muted {
+  color: var(--fm-ink-soft);
+}
